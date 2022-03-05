@@ -11,11 +11,7 @@ public class DemoTest {
     @Test
     public void test1(){
         System.out.println(ConfigFactory.getConfig().browser());
-        /*WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://google.in");
-        System.out.println(driver.getTitle());
-        driver.quit();*/
+
 
     }
 }

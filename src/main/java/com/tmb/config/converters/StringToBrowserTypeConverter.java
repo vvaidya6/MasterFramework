@@ -1,10 +1,9 @@
 package com.tmb.config.converters;
 
-import com.tmb.config.enums.BrowserType;
+import com.tmb.enums.BrowserType;
 import org.aeonbits.owner.Converter;
 
 import java.lang.reflect.Method;
-import java.util.Locale;
 import java.util.Map;
 
 public class StringToBrowserTypeConverter implements Converter<BrowserType> {
